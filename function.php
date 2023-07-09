@@ -53,7 +53,7 @@ function uniqueId(){
 }
 
 function randDomain(){
-	$arraymail = array('xmild.my.id','jtstore.my.id');
+	$arraymail = array('vintomaper.com');
 	$datas = array_rand($arraymail, true);
 	return $arraymail[$datas];
 }
